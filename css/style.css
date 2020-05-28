@@ -28,9 +28,29 @@ body{
     border-bottom:1px solid #56a79a;
   }
 
+  /* NAVBAR */
+#navbar{
+  text-transform:uppercase;
+}
 
+#navbar li{
+  display:inline;
+  padding-right:20px;
+  list-style:none;
+}
 
-  /* SHOWCASE */
+#navbar a{
+  text-decoration:none;
+  color:#888;
+}
+
+#navbar li.current a, #navbar a:hover{
+  color:#56a79a;
+  border-bottom: 3px solid #56a79a;
+  padding-bottom:3px;
+}
+
+ /* SHOWCASE */
 #showcase{
     background:url('../images/showcase.jpg') no-repeat center center;
     border-bottom:1px solid #56a79a;
@@ -127,6 +147,11 @@ body{
     padding:10px;
     border:0;
   }
+
+  /* PAGE */
+#page{
+  margin-bottom:40px;
+}
 
   /* FOOTER */
 #main-footer{
