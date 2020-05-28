@@ -28,11 +28,7 @@ body{
     border-bottom:1px solid #56a79a;
   }
 
-  /* FOOTER */
-#main-footer{
-    background:#56a79a;
-    color:#fff;
-  }
+
 
   /* SHOWCASE */
 #showcase{
@@ -120,3 +116,22 @@ body{
     list-style:none;
     line-height:2em;
   }
+
+  #company input[type="text"]{
+    padding:7px;
+  }
+  
+  #company button{
+    background:#222;
+    color:#fff;
+    padding:10px;
+    border:0;
+  }
+
+  /* FOOTER */
+#main-footer{
+    background:#56a79a;
+    color:#fff;
+  }
+
+  
